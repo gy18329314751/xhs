@@ -1,0 +1,394 @@
+.inner {
+    width: 940px;
+    height: auto;
+    margin: auto;
+}
+.inner1 {
+    height: 50px;
+    margin: auto;
+}
+
+.box1 {
+    -webkit-display: flex;
+    -moz-display: flex;
+    -ms-display: flex;
+    -o-display: flex;
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 50px;
+    margin: auto;
+    box-shadow: 0 2px 6px 0 rgba(0, 0, 0, 0.04);
+}
+
+.box1 .logo {
+    float: left;
+}
+
+.box1 .logo img {
+    float: left;
+    width: 72px;
+    height: 25px;
+    margin: 12px 60px 13px 0;
+}
+
+.box1 .han {
+    float: left;
+    margin-left: 87px;
+}
+
+.box1 .han ul li {
+    float: left;
+    margin: 12px 60px 13px 0;
+    line-height: 25px;
+    font-size: 14px;
+}
+
+.box1 .han ul .li1 {
+    border-bottom: 2px solid #ff2741;
+    color: red;
+}
+
+.pin1 h2{
+    color: #333;
+    font-size: 25px;
+    margin-bottom: 10px;
+    text-align: center;
+    margin-top: 50px;
+}
+.pin1 p{
+    color: #999;
+    font-size: 13px;
+    margin: 0 0 48px 0;
+    text-align: center;
+}
+.pin2{
+    width: 1080px;
+    height: 432px;
+    margin: auto;
+    position: relative;
+}
+.pin2 .pin2-1{
+    width: 980px;
+    height: 365px;
+    background: #ff5267;
+    left: 40px;
+    position: absolute;
+    z-index: 300;
+    border-radius: 20px;
+}
+.pin2 .pin2-3{
+    background: url(../img/yingyuzimo.png)no-repeat;
+    width: 834px;
+    height: 84px;
+    background-size: contain;
+    display: block;
+    z-index: 22;
+    position: absolute;
+    left: 101px;
+    top: 336px;
+    margin: auto;
+}
+.pin3{
+    width: 1060px;
+    height: 233px;
+    overflow: hidden;
+    position: relative;
+    top: 35px;
+    left: 0px;
+    z-index: 500;
+}
+.pin3 .pin3-one{
+    background: #fff;
+    width: 192px;
+    height: 233px;
+    float: left;
+    border-radius: 20px;
+    margin: 0 10px;
+    text-align: center;
+    box-shadow: -2px 0 30px 0 rgba(255,39,65,0.1);
+
+}
+.pin3 .pin3-one img{
+    width: 60px;
+    height: 60px;
+    margin: 35px 0 15px 0;
+}
+.pin3 .pin3-one .pin3-one2{
+    font-size: 18px;
+    margin: 0 0 10px 0;
+    color: #555;
+}
+.pin3 .pin3-one .pin3-one3{
+    font-size: 15px;
+    color: #999;
+    margin: 0 0 5px 0;
+}
+.pin3 .po{
+    box-shadow: -2px 0 30px 0 rgba(255,39,65,0.1);
+}
+.pin4{
+    width: 240px;
+    height: 50px;
+    border-radius: 25px;
+    -webkit-box-shadow: 0 0 25px 0 rgba(255,39,65,0.1);
+    box-shadow: 0 0 25px 0 rgba(255,39,65,0.1);
+    line-height: 50px;
+    text-align: center;
+    background: #fff;
+    position: absolute;
+    bottom: 48px;
+    left: 50%;
+    color: #ff2741;
+    font-size: 22px;
+    font-weight: 500;
+    z-index: 500;
+    margin-left: -120px;
+}
+.pio1{
+    background: #f7f7f7;
+    height: 490px;
+    text-align: center;
+    padding: 60px 0 0 0;
+}
+.pio1 h2{
+    font-size: 25px;
+    font-weight: 500;
+    color: #000;
+    margin: 0 0 10px 0;
+}
+.pio1 h5{
+    font-size: 13px;
+    color: #999;
+    font-weight: normal;
+    margin: 0 0 50px 0;
+}
+.pio1 .pio1-one{
+    position: relative;
+    width: 1080px;
+    margin: 0 auto;
+}
+.pio1 .pio1-one1{
+    width: 320px;
+    height: 240px;
+    text-align: center;
+    background: #fff;
+    color: #2c2c2c;
+    font-size: 20px;
+    font-weight: 500;
+    float: left;
+    margin: 0 20px;
+    border-radius: 8px;
+    -webkit-box-shadow: 0px 2px 20px 0px rgba(0,0,0,0.03);
+    box-shadow: 0px 2px 20px 0px rgba(0,0,0,0.03);
+}
+
+.pio1 .pio1-one1 img{
+    width: 96px;
+    height: 37px;
+    display: block;
+    margin-top: 15px;
+    font-size: inherit;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+    transform: translate(0, 0);
+}
+.pio1 .pio1-one1 p{
+    margin: 25px 0 0 0;
+}
+.pio1 .pio1-one1 .pio1-one1-yi{
+    font-size: 16px;
+    line-height: 1.5;
+    color: #747474;
+    font-weight: normal;
+    margin: 18px 0 0 0;
+}
+.pio1 .pio1-one1 .pio1-one1-yi p{
+    margin: 5px 0;
+}
+.pio2{
+    margin: 0 auto;
+    padding: 0 0 30px 0;
+}
+.pio2 h2{
+    font-size: 25px;
+    line-height: 1.09;
+    letter-spacing: -0.6px;
+    text-align: center;
+    font-weight: 500;
+    padding: 64px 0 0 0;
+    margin: 0 0 50px 0;
+}
+.pio2 .pio2-one{
+    width: 1002px;
+    margin: 0 auto;
+}
+.pio2 .pio2-one .pio2-one1{
+    box-sizing: border-box;
+}
+.pio2 .pio2-one .pio2-one1 h4{
+    font-size: 20px;
+    line-height: 1.25;
+    text-align: left;
+    font-weight: normal;
+    color: #2c2c2c;
+    margin: 0;
+}
+.pio2 .pio2-one .pio2-one1 p{
+    font-size: 15px;
+    color: #818181;
+    margin: 16px 0 32px 0;
+}
+
+
+
+.box7{
+    width: 100%;
+    height: 347px;
+    background: #39393b;
+}
+.box7 .box7-one{
+    width: 100%;
+    height: 236px;
+    border-bottom: 1px solid rgba(216,216,216,0.2);
+}
+.box7 .box7-one .l{
+    float: left;
+    width: 250px;
+    height: 135px;
+    margin-top: 50px;
+    margin-left: 212px;
+
+    margin-top: 50px;
+}
+.box7 .box7-one .l .ii img{
+    width: 214px;
+    height: 87px;
+}
+.box7 .box7-one .l ul li{
+    float: left;
+}
+.box7 .box7-one .l ul .li2{
+    margin-top: 4px;
+}
+.box7 .box7-one .l ul .li3{
+    margin-top: 3px;
+}
+.box7 .box7-one .f{
+    width: 480px;
+    height: 110px;
+    float: left;
+    margin-top: 51px;
+    margin-left: 210px;
+    position: relative;
+}
+.box7 .box7-one .f .f1{
+    width: 106px;
+    height: 110px;
+    float: left;
+    margin-left: 38px;
+}
+.box7 .box7-one .f .f1 img{
+    width: 30px;
+    height: 30px;
+}
+.box7 .box7-one .f .f2{
+    width: 65px;
+    height: 110px;
+    margin-left: 50px;
+    margin-top: -33px;
+    color: whitesmoke;
+}
+.box7 .box7-one .f .f1 span{
+    font-size: 16px;
+}
+.box7 .box7-one .f .f1 ul li{
+    font-size: 12px;
+    margin-left: 9px;
+    margin-top: 15px;
+}
+.box7 .box7-tow span{
+    font-size: 12px;
+    color: white;
+}
+.box7 .box7-tow .box7-tow1 .sa1{
+    margin-top: 25px;
+    margin-left: 100px;
+    position: absolute;
+}
+.box7 .box7-tow .box7-tow2 i{
+    background: url("../img/17466315-4279-4464-b12d-aa4a5c6342c0.jpg")no-repeat;
+    width: 18px;
+    height: 18px;
+    display: inline-block;
+    background-size: contain;
+    cursor: pointer;
+    vertical-align: middle;
+    margin-left: 172px;
+    margin-top:46px;
+}
+.box7 .box7-tow .box7-tow2 .sa2{
+    margin-top: 46px;
+    margin-left: 12px;
+    position: absolute;
+}
+.box7 .box7-tow .box7-tow3 i{
+    background: url(//ci.xiaohongshu.com/b0b2023e-bf3c-4994-9b67-cb8758739684) no-repeat;
+    width: 18px;
+    height: 18px;
+    display: inline-block;
+    background-size: contain;
+    margin-left: 443px;
+    cursor: pointer;
+    vertical-align: middle;
+    position: absolute;
+}
+.box7 .box7-tow .box7-tow3 .sa3{
+    margin-top: 2px;
+    margin-left: 230px;
+    position: absolute;
+}
+.box7 .box7-tow .box7-tow3 .sa4{
+    margin-top: 2px;
+    margin-left: 472px;
+    position: absolute;
+}
+
+
+
+
+
+.pin3 .pin3-one:hover{
+    animation:  1s wobble;
+    color: red;
+}
+.pio1 .pio1-one1 img:hover{
+    animation:  .5s flash;
+    color: red;
+}
+.pio1 .pio1-one1 p:hover{
+    animation:  1s rubberBand;
+    color: red;
+}
+.pin1 h2:hover{
+    animation:  1s bounceOut;
+    color: red;
+}
+.pin1 p:hover{
+    animation:  1s bounceOut;
+    color: red;
+}
+.pio2 .pio2-one .pio2-one1:hover{
+    animation:  1s flipOutX;
+    color: red;
+}
+.pio1 h2:hover{
+    animation:  1s bounceOut;
+    color: red;
+}
+.pio1 h5:hover{
+    animation:  1s bounceOut;
+    color: red;
+}
+
+

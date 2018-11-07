@@ -1,0 +1,365 @@
+.inner {
+    width: 1130px;
+    margin: auto;
+}
+
+.fox {
+    overflow: hidden;
+    position: relative;
+}
+
+.fox-one {
+    top: 0;
+    position: absolute;
+    transition: top 0.5s;
+}
+
+.fox .so .fox-one11 {
+    width: 560px;
+    height: 400px;
+    float: left;
+
+}
+
+.fox .so .fox-one11 img {
+    width: 560px;
+    height: 400px;
+    float: left;
+    margin-top: 40px;
+}
+
+.fox .so .fox-one12 {
+    width: 451px;
+    height: 302px;
+    float: right;
+}
+
+.fox .so .fox-one12 h2 {
+    font-size: 48px;
+    color: #2c2c2c;
+    margin: 24px 0 0 0;
+}
+
+.fox .so .fox-one12 h3 {
+    font-size: 24px;
+    line-height: 1.33;
+    text-align: left;
+    color: #2c2c2c;
+    margin: 12px 0 16px 0;
+    width: 292px;
+}
+
+.fox .so .fox-one12 p {
+    font-size: 16px;
+    line-height: 2;
+    text-align: left;
+    color: #747474;
+    margin: 0 0 24px 0;
+}
+
+.fox .so .fox-one13 {
+    width: 480px;
+    height: 180px;
+    float: right;
+    position: relative;
+}
+
+.fox .so .fox-one13 .a1 {
+    width: 216px;
+    height: 56px;
+    display: inline-block;
+    border-radius: 28px;
+    background-color: #ff4949;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 56px;
+    text-align: center;
+    color: #fff;
+    cursor: pointer;
+}
+
+.fox .so .fox-one13 .a1:hover {
+    opacity: .2;
+}
+
+.fox .so .fox-one13 .a2:hover {
+    opacity: .2;
+}
+
+.fox .so .fox-one13 .a2 {
+    width: 216px;
+    height: 56px;
+    display: inline-block;
+    border-radius: 28px;
+    background-color: #ff4949;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 56px;
+    text-align: center;
+    color: white;
+    border: 1px solid #ff4949;
+    cursor: pointer;
+    margin-left: 14px;
+}
+
+.fox .so .fox-one13 .a3 {
+    display: block;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.5;
+    text-align: left;
+    color: #ff4949;
+    margin: 16px 0 0 6px;
+    cursor: pointer;
+}
+
+.ui1 .uq1 {
+    margin-left: 15px;
+    height: 0;
+    width: 100%;
+    overflow: hidden;
+}
+
+.ui2 .uq2 {
+    margin-left: 30px;
+    height: 0;
+    overflow: hidden;
+    width: 100%;
+}
+
+.ui1 {
+    width: 216px;
+    height: 56px;
+    left: 0;
+    position: absolute;
+}
+
+.ui2 {
+    width: 216px;
+    height: 56px;
+    right: 0;
+    position: absolute;
+}
+
+.ui1 > .a1:hover + .uq1 {
+    transition: all .5s ease-in-out;
+    height: 160px;
+}
+
+.ui2 > .a2:hover + .uq2 {
+    transition: all .5s ease-in-out;
+    height: 160px;
+}
+
+.fox-one1 .fox-one14 {
+    width: 504px;
+    height: 50px;
+    position: absolute;
+    top: 500px;
+    left: 400px;
+}
+
+.fox-one1 .fox-one14 span {
+    font-size: 35px;
+
+    margin-left: 150px;
+    line-height: 50px;
+}
+
+.fox-one .do h2 {
+    /*font-size: 40px;*/
+    text-align: center;
+}
+
+.fox-one .do1 {
+    position: relative;
+}
+
+.fox-one .do-1 {
+    position: absolute;
+    width: 840px;
+    margin: 0 auto;
+    text-align: center;
+    left: 190px;
+    top: 300px;
+}
+
+.fox-one .do-1 img {
+    width: 100%;
+}
+
+.fox-one .do1 .lo {
+    padding: 10px 40px 0 40px;
+    width: 280px;
+    height: 176px;
+    position: absolute;
+    background: #fff;
+    color: #2c2c2c;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.fox-one .do1 .one {
+    top: 108px;
+    left: 16px;
+}
+
+.fox-one .do1 .lo .p1 {
+    color: #2c2c2c;
+    font-size: 20px;
+    font-weight: 500;
+    text-align: center;
+}
+
+.fox-one .do1 .lo .p2 {
+    font-size: 16px;
+    line-height: 1.5;
+    color: #747474;
+    font-weight: normal;
+    margin: -12px 0 0 0;
+    margin-top: 28px;
+    margin-left: 30px;
+    margin-right: 28px;
+}
+
+.fox-one .do1 .lo .p2 .sp10 {
+    font-weight: 500;
+    color: #ff4949;
+    font-style: normal;
+}
+
+.fox-one .do1 .tow {
+    top: 60px;
+    left: 400px;
+}
+
+.fox-one .do1 .three {
+    top: 108px;
+    left: 780px;
+}
+
+.fox-one .do1 .four {
+    top: 383px;
+    left: 196px;
+}
+
+.fox-one .do1 .five {
+    top: 383px;
+    left: 640px;
+}
+
+.fox-one .fo {
+    position: relative;
+}
+
+.fox-one .fo .fo1 {
+    width: 1030px;
+    height: 106px;
+}
+
+.fox-one .fo .fo1 .kl {
+    border-bottom: 5px solid blue;
+}
+
+.fox-one .fo .fo1 .fo1-o {
+    width: 426px;
+    height: 106px;
+    float: left;
+    margin-right: 57px;
+}
+
+.fox-one .fo .fo1 .fo1-o h2 {
+    font-size: 32px;
+    line-height: 1.17;
+    text-align: left;
+    color: #2c2c2c;
+    margin: 0;
+}
+
+.fox-one .fo .fo1 .fo1-o p {
+    font-size: 20px;
+    line-height: 1.2;
+    text-align: left;
+    color: #747474;
+    margin: 16px 0 20px 0;
+}
+
+.fox-one .fo .no {
+    width: 1030px;
+    height: 500px;
+    margin: auto;
+    margin-left: 1px;
+    margin-top: 50px;
+}
+
+.fox-one .fo .no .fo2-one {
+    width: 100%;
+    height: 250px;
+}
+
+.fox-one .fo .no .fo2-one h4 {
+    float: left;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 1.25;
+    text-align: left;
+    color: #2c2c2c;
+    margin: 0 40px 0 0;
+    position: absolute;
+}
+
+.fox-one .fo .no .fo2-one ol {
+    float: left;
+    margin: 0;
+    width: 880px;
+    font-size: 20px;
+    margin-top: 30px;
+}
+
+.fox-one .fo .no .fo2-one ol li {
+    margin-top: 10px;
+}
+
+.bb h6 {
+    font-size: 14px;
+    color: #ff2741;
+    font-weight: 500;
+    margin: 0;
+}
+
+.bb h2 {
+    color: #000;
+    font-size: 26px;
+    font-weight: 500;
+    margin: 10px 0 12px 0;
+}
+
+.bb .bh1 {
+    width: 313px;
+    height: 53px;
+    margin-top: 50px;
+    float: left;
+    margin-left: 50px;
+}
+
+.bb .bh1 h5 {
+    font-weight: 500;
+    color: #000;
+    margin: 0 0 10px 0;
+    display: inline-block;
+    margin-left: 40px;
+}
+.bb .bh1 p {
+    color: #555;
+    margin: 0;
+    margin-left: 40px;
+}
+.bb .bh1:hover p{
+    color: red;
+}
+.bb .bh1:hover h5{
+    color: red;
+}
+.bb .bh1:hover{
+    animation: shake 1s;
+}

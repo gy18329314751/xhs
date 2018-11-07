@@ -1,0 +1,512 @@
+.inner {
+    width: 940px;
+    height: auto;
+    margin: auto;
+}
+
+.inner1 {
+    height: 50px;
+    margin: auto;
+}
+
+.box1 {
+    -webkit-display: flex;
+    -moz-display: flex;
+    -ms-display: flex;
+    -o-display: flex;
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 50px;
+    margin: auto;
+    box-shadow: 0 2px 6px 0 rgba(0, 0, 0, 0.04);
+}
+
+.box1 .logo {
+    float: left;
+}
+
+.box1 .logo img {
+    float: left;
+    width: 72px;
+    height: 25px;
+    margin: 12px 60px 13px 0;
+}
+
+.box1 .han {
+    float: left;
+    margin-left: 87px;
+}
+
+.box1 .han ul li {
+    float: left;
+    margin: 12px 60px 13px 0;
+    line-height: 25px;
+    font-size: 14px;
+}
+
+.box1 .han ul .li1 {
+    border-bottom: 2px solid #ff2741;
+    color: red;
+}
+
+.nox1 {
+    width: 100%;
+    height: 380px;
+    margin: auto;
+}
+
+.nox1 .nox1-one {
+    width: 100%;
+    height: 380px;
+    margin: auto;
+}
+
+.nox1 img {
+    width: 100%;
+    height: 380px;
+}
+
+.nox2 {
+    width: 940px;
+    height: 465px;
+    text-align: center;
+    margin: 60px auto 0 auto;
+    overflow: hidden;
+    padding-bottom: 60px;
+    position: relative;
+}
+
+.nox2 .nox2-one .zi {
+    display: inline-block;
+    font-size: 43px;
+    color: #ff0000;
+    font-weight: 600;
+}
+
+.nox2 .nox2-tow {
+    color: #555;
+    font-size: 17px;
+    position: relative;
+    margin-top: 38px;
+}
+
+.nox2 .nox2-tow p {
+    position: relative;
+    margin-top: 15px;
+    display: inline-block;
+}
+
+.nox2 ul {
+    margin-top: 100px;
+}
+
+.nox2 ul li {
+    float: left;
+    width: 313px;
+    height: 147px;
+    margin-left: -10px;
+}
+
+.nox2 ul li .tuhe {
+    width: 80px;
+    height: 80px;
+}
+
+.nox2 ul li img {
+    width: 80px;
+    height: 80px;
+    margin-left: 105px;
+    transition: .5s;
+}
+
+.nox2 ul li .tuhe:hover img {
+    transform: rotate(360deg);
+}
+
+.nox2 ul li .sn1 {
+    font-size: 20px;
+    color: #333;
+    display: block;
+    margin: 10px 0 0 0;
+}
+
+.nox2 ul li .sn2 {
+    font-size: 14px;
+    color: #555;
+    display: block;
+    margin: 5px 0 0 0;
+}
+
+.nox3 {
+    width: 100%;
+    height: 800px;
+    background: #fbfbfb;
+}
+
+.nox3 .nox3-da {
+    width: 940px;
+    height: 941px;
+    margin: auto;
+}
+
+.nox3 .nox3-da .hong {
+    display: block;
+    color: #ff0000;
+    font-weight: 600;
+    text-align: center;
+    font-size: 35px;
+}
+
+.nox3 .nox3-da .nox3-tow {
+    width: 940px;
+    margin: 0 auto;
+}
+
+.nox3 .nox3-da .nox3-tow .list {
+    width: 428px;
+    float: left;
+}
+
+.nox3 .nox3-da .nox3-tow .list .pp1 {
+    margin: 10px 0 0 0;
+    color: #999;
+}
+
+.nox3 .nox3-da .nox3-tow .list .pp1 .sp1 {
+    font-size: 26px;
+    font-weight: 500;
+    width: 58px;
+    vertical-align: top;
+    display: inline-block;
+    margin-top: -16px;
+}
+
+.nox3 .nox3-da .nox3-tow .list .pp1 .sp2 {
+    display: inline-block;
+    margin: 0 0 0 30px;
+}
+
+.nox3 .nox3-da .nox3-tow .list .pp1 .sp2 .sp2-1 {
+    width: 4px;
+    height: 4px;
+    background: #d5d5d5;
+    border-radius: 50%;
+    display: block;
+    margin-top: -2px;
+}
+
+.nox3 .nox3-da .nox3-tow .list .pp1 .sp2 .ii1 {
+    width: 1px;
+    height: 40px;
+    display: block;
+    background: #ccc;
+    margin: 12px auto 0 auto;
+    overflow: hidden;
+    position: relative;
+}
+
+.sp2-1 {
+    width: 4px;
+    height: 4px;
+    background: red;
+    border-radius: 50%;
+    display: block;
+    position: absolute;
+    margin-left: -2px;
+    margin-top: -12px;
+    /*animation: none 3s infinite;*/
+}
+
+.ii1 .ooo {
+    height: 40px;
+    width: 1px;
+    background: red;
+    display: block;
+    margin: 12px auto 0 auto;
+    position: absolute;
+    top: -77px;
+}
+.active .sp1,.active .sp3{
+    color: #000;
+}
+.active .sp2-1{
+    background: #ff2741!important;
+}
+.active .ii1 .ooo{
+    height: 40px;
+    width: 1px;
+    background: red;
+    display: block;
+    margin: 12px auto 0 auto;
+    position: absolute;
+    top: -77px;
+    animation: haha 1.5s 1 linear;
+}
+@keyframes haha {
+    0% {
+        top:-77px
+    }
+    50%{
+        top:-12px;
+    }
+    100% {
+        top:-12px
+    }
+}
+.nox3 .nox3-da .nox3-tow .list .pp1 .sp3 {
+    font-size: 14px;
+    font-weight: 500;
+    width: 254px;
+    display: inline-block;
+    margin-left: 30px;
+    vertical-align: middle;
+    margin-top: -102px;
+}
+
+.nox3 .nox3-da .nox3-tow .log {
+    width: 450px;
+    margin-top: 100px;
+    margin-left: 62px;
+    height: 450px;
+    float: left;
+}
+
+.nox3 .nox3-da .nox3-tow .log img {
+    width: 450px;
+    height: 450px;
+}
+
+.nox4 {
+    width: 100%;
+    height: 759px;
+    background: wheat;
+}
+
+.nox4 .hh2 {
+    display: block;
+    color: #ff0000;
+    font-weight: 600;
+    text-align: center;
+    font-size: 35px;
+    margin: 100px 0 50px 0;
+}
+
+.nox4 .now4-one {
+    width: 1289px;
+    height: 628px;
+    margin: auto;
+}
+
+.nox4 .now4-one .pian1 {
+    width: 793px;
+    height: 391px;
+    float: left;
+    overflow: hidden;
+}
+
+.nox4 .now4-one .pian1 img {
+    width: 793px;
+    height: 391px;
+    float: left;
+}
+
+.nox4 .now4-one .pian img {
+    transition: .5s;
+}
+
+.nox4 .now4-one .pian:hover img {
+    transform: scale(1.2);
+}
+
+.nox4 .now4-one .pian2 {
+    width: 474px;
+    height: 300px;
+    float: right;
+    overflow: hidden;
+}
+
+.nox4 .now4-one .pian2 img {
+    width: 474px;
+    height: 300px;
+    float: right;
+}
+
+.nox4 .now4-one .pian3 {
+    width: 474px;
+    height: 300px;
+    float: right;
+    overflow: hidden;
+}
+
+.nox4 .now4-one .pian3 img {
+    width: 474px;
+    height: 300px;
+    float: right;
+    margin-top: 20px;
+}
+
+.nox4 .now4-one .pian4 {
+    width: 384px;
+    height: 210px;
+    float: left;
+    margin-top: 10px;
+    overflow: hidden;
+}
+
+.nox4 .now4-one .pian4 img {
+    width: 384px;
+    height: 210px;
+    float: left;
+    margin-top: 10px;
+
+}
+
+.nox4 .now4-one .pian5 {
+    width: 384px;
+    height: 210px;
+    float: left;
+    margin-left: 20px;
+    margin-top: 10px;
+    overflow: hidden;
+}
+
+.nox4 .now4-one .pian5 img {
+    width: 384px;
+    height: 210px;
+    float: left;
+    margin-left: 20px;
+    margin-top: 10px;
+}
+
+.box7 {
+    width: 100%;
+    height: 347px;
+    background: #39393b;
+}
+
+.box7 .box7-one {
+    width: 100%;
+    height: 236px;
+    border-bottom: 1px solid rgba(216, 216, 216, 0.2);
+}
+
+.box7 .box7-one .l {
+    float: left;
+    width: 250px;
+    height: 135px;
+    margin-top: 50px;
+    margin-left: 212px;
+
+    margin-top: 50px;
+}
+
+.box7 .box7-one .l .ii img {
+    width: 214px;
+    height: 87px;
+}
+
+.box7 .box7-one .l ul li {
+    float: left;
+}
+
+.box7 .box7-one .l ul .li2 {
+    margin-top: 4px;
+}
+
+.box7 .box7-one .l ul .li3 {
+    margin-top: 3px;
+}
+
+.box7 .box7-one .f {
+    width: 480px;
+    height: 110px;
+    float: left;
+    margin-top: 53px;
+    margin-left: 210px;
+    position: relative;
+}
+
+.box7 .box7-one .f .f1 {
+    width: 106px;
+    height: 110px;
+    float: left;
+    margin-left: 38px;
+}
+
+.box7 .box7-one .f .f1 img {
+    width: 30px;
+    height: 30px;
+}
+
+.box7 .box7-one .f .f2 {
+    width: 65px;
+    height: 110px;
+    margin-left: 50px;
+    margin-top: -33px;
+    color: whitesmoke;
+}
+
+.box7 .box7-one .f .f1 span {
+    font-size: 16px;
+}
+
+.box7 .box7-one .f .f1 ul li {
+    font-size: 12px;
+    margin-left: 9px;
+    margin-top: 15px;
+}
+
+.box7 .box7-tow span {
+    font-size: 12px;
+    color: white;
+}
+
+.box7 .box7-tow .box7-tow1 .sa1 {
+    margin-top: 25px;
+    margin-left: 100px;
+    position: absolute;
+}
+
+.box7 .box7-tow .box7-tow2 i {
+    background: url("../img/17466315-4279-4464-b12d-aa4a5c6342c0.jpg") no-repeat;
+    width: 18px;
+    height: 18px;
+    display: inline-block;
+    background-size: contain;
+    cursor: pointer;
+    vertical-align: middle;
+    margin-left: 172px;
+    margin-top: 46px;
+}
+
+.box7 .box7-tow .box7-tow2 .sa2 {
+    margin-top: 46px;
+    margin-left: 12px;
+    position: absolute;
+}
+
+.box7 .box7-tow .box7-tow3 i {
+    background: url(//ci.xiaohongshu.com/b0b2023e-bf3c-4994-9b67-cb8758739684) no-repeat;
+    width: 18px;
+    height: 18px;
+    display: inline-block;
+    background-size: contain;
+    margin-left: 443px;
+    cursor: pointer;
+    vertical-align: middle;
+    position: absolute;
+}
+
+.box7 .box7-tow .box7-tow3 .sa3 {
+    margin-top: 2px;
+    margin-left: 230px;
+    position: absolute;
+}
+
+.box7 .box7-tow .box7-tow3 .sa4 {
+    margin-top: 2px;
+    margin-left: 472px;
+    position: absolute;
+
+}

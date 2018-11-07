@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        video{
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+<video src="img/idol15s.mp4" autoplay="autoplay" controls="controls" id="video"></video>
+</body>
+<script>
+    var oVideo =document.getElementById('video');
+    var oA=document.getElementById('aaa');
+    oVideo.addEventListener("ended",function(){
+        window.location.href ="javascript:history.back(-1)"
+    },false)
+</script>
+</html>

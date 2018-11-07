@@ -1,0 +1,381 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>小红书_标记我的生活</title>
+    <link rel="icon" href="//ci.xiaohongshu.com/953e8240-67d1-4d6d-94f3-fa699ad27b9a">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/xiao.css">
+    <script src="js/aaa.js"></script>
+
+
+    <!--地图-->
+    <meta http-equiv="Content-Type" content="text/html; charset=gb2312"/>
+    <meta name="keywords" content="百度地图,百度地图API，百度地图自定义工具，百度地图所见即所得工具"/>
+    <meta name="description" content="百度地图API自定义地图，帮助用户在可视化操作下生成百度地图"/>
+    <title>百度地图API自定义地图</title>
+    <!--引用百度地图API-->
+    <style type="text/css">
+        html, body {
+            margin: 0;
+            padding: 0;
+        }
+
+        .iw_poi_title {
+            color: #CC5522;
+            font-size: 14px;
+            font-weight: bold;
+            overflow: hidden;
+            padding-right: 13px;
+            white-space: nowrap
+        }
+
+        .iw_poi_content {
+            font: 12px arial, sans-serif;
+            overflow: visible;
+            padding-top: 4px;
+            white-space: -moz-pre-wrap;
+            word-wrap: break-word
+        }
+    </style>
+    <script type="text/javascript" src="http://api.map.baidu.com/api?key=&v=1.1&services=true"></script>
+    <!--地图结束-->
+</head>
+<body>
+<div class="box1">
+    <div class="inner1">
+        <div class="logo">
+            <img src="img/87681a4d-9b81-4c14-aecc-ead27a4d7952.jpg" alt="">
+        </div>
+        <div class="han">
+            <ul>
+                <li class="li1">首页</li>
+                <a href="tuduo.html">
+                    <li>社区精选</li>
+                </a>
+                <a href="guanyu.html">
+                    <li>关于我们</li>
+                </a>
+                <a href="jiar.html">
+                    <li>加入我们</li>
+                </a>
+                <a href="zhaoshang.html">
+                    <li>招商合作</li>
+                </a>
+                <a href="pinpai.html">
+                    <li>品牌账号</li>
+                </a>
+            </ul>
+        </div>
+    </div>
+</div>
+<div class="box2">
+    <div class="inner">
+        <div class="left">
+            <div class="box2-one">小红书</div>
+            <div class="box2-two" id="box2-two"></div>
+            <div class="box2-three"><img src="img/e7088961-073f-4699-8b9a-c4bf8c2abd19@r_640w_640h_ss1.jpg" alt="">
+            </div>
+            <div class="box2-four">
+                <span class="span1">iOS 版</span>
+                <img src="img/e76b6082-be01-44bc-b317-049dbb6f63b2.jpg" alt="">
+                <div class="ha"><img src="img/936da4bf-1faa-4e6a-af2d-9b853c3e6e55.jpg" alt=""></div>
+            </div>
+            <div class="box2-four four2">
+                <span class="span1">Android 版</span>
+                <img class="img1" src="img/e76b6082-be01-44bc-b317-049dbb6f63b2.jpg" alt="">
+                <div class="ha"><img src="img/936da4bf-1faa-4e6a-af2d-9b853c3e6e55.jpg" alt=""></div>
+            </div>
+        </div>
+        <div class="right">
+            <img src="img/faa6e72f-f7b3-4d0c-9dbe-ffc5ae87df2f.jpg" alt="">
+        </div>
+    </div>
+</div>
+<div class="box3">
+    <div class="inner">
+        <div class="box3-one">
+            <div class="box3-one1">
+                <div class="box3-one1-a"><p>01</p></div>
+                <div class="box3-one1-b">
+                    <span class="yi">关注 Follow</span>
+                <span class="gang">
+                    <i></i>
+                </span>
+                    <span class="san">日常点滴，不再错过</span>
+                </div>
+            </div>
+            <div class="box3-one1">
+                <div class="box3-one1-a"><p>02</p></div>
+                <div class="box3-one1-b">
+                    <span class="yi">发现 Explore</span>
+                <span class="gang">
+                    <i></i>
+                </span>
+                    <span class="san">发现世界，分享生活</span>
+                </div>
+            </div>
+            <div class="box3-one1">
+                <div class="box3-one1-a"><p>03</p></div>
+                <div class="box3-one1-b">
+                    <span class="yi">附近 Nearby</span>
+                <span class="gang">
+                    <i></i>
+                </span>
+                    <span class="san">更多笔记，近在咫尺 </span>
+                </div>
+            </div>
+            <div class="box3-one1">
+                <div class="box3-one1-a"><p>04</p></div>
+                <div class="box3-one1-b">
+                    <span class="yi">商城 Store</span>
+                <span class="gang">
+                    <i></i>
+                </span>
+                    <span class="san">爆款小众，应有尽有</span>
+                </div>
+            </div>
+        </div>
+        <div class="box3-tow">
+            <div class="box3-tow1">
+                <img src="img/2862f189-82b5-4970-98af-0df57a4733b0.jpg" alt="">
+            </div>
+            <ul>
+                <li><img src="img/7f246168-8aeb-42b1-a927-0d83cefd3435.jpg" alt=""></li>
+                <li><img src="img/711d7a23-0f5c-425d-844e-2a7cdff44757.jpg" alt=""></li>
+                <li><img src="img/9aa2b2db-df6e-4273-b756-e9018b80f78d.jpg" alt=""></li>
+                <li><img src="img/29e8f7d9-02be-4aa3-b884-e426c7e5bf1d.jpg" alt=""></li>
+            </ul>
+        </div>
+    </div>
+</div>
+<div class="box4">
+    <div class="inner">
+        <div class="box4-one">
+            <span class="span1"><img src="img/24ad1642-7917-49aa-9a85-ff7de68227d4.jpg" alt=""></span>
+            <span class="span2">9000万用户的口碑分享</span>
+            <a href="">更多</a>
+        </div>
+        <div class="box4-tow">
+            <div class="sihe">
+                <div class="bian"><img src="img/82bbe95f-3f32-48f3-98a9-d2c2f7a03142.jpg" alt=""></div>
+                <span class="sp1">婚礼筹备清单</span>
+                <p>❤ 5200</p>
+                <span class="sp2">一枚小星星</span>
+            </div>
+            <div class="sihe">
+                <div class="bian"><img src="img/ed8a93bc-1dc5-4895-9b5e-6299f1dc7449.jpg" alt=""></div>
+                <span class="sp1">你们的“他”都在我手机里</span>
+                <p>❤ 9999</p>
+                <span class="sp2">一枚小星星</span>
+            </div>
+            <div class="sihe">
+                <div class="bian"><img src="img/6e3f70c5-2a47-474a-ac04-4df4144a9260.jpg" alt=""></div>
+                <span class="sp1">分享一个日常的我</span>
+                <p>❤ 5200</p>
+                <span class="sp2">一枚小星星</span>
+            </div>
+            <div class="sihe">
+                <div class="bian"><img src="img/81774567-578d-43b3-ac6b-b705f61e111d.jpg" alt=""></div>
+                <span class="sp1">教你化妆</span>
+                <p>❤ 5200</p>
+                <span class="sp2">一枚小星星</span>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="box5">
+    <div class="inner">
+        <h1>全世界的小红薯</h1>
+        <h5>与你一起，分享美好生活</h5>
+    </div>
+    <div style="width:100%;height:450px;" id="dituContent"></div>
+</div>
+<div class="box6">
+    <div class="boxxia">
+        <div class="box6-one">
+            <div class="jing"><img src="img/ef963527-18e4-430e-b3cf-a3306451b20c@r_640w_640h.jpg" alt=""></div>
+            <div class="jong" id="jong">
+                <a href="shipin.html"><img src="img/769fe501-7d71-4cb1-a934-3a1e02ee0b0a.jpg" alt=""></a>
+            </div>
+        </div>
+        <div class="box6-tow">
+            <img src="img/4785cc6c-7b9d-4803-85de-64af7f28f38b.jpg" alt="">
+        </div>
+    </div>
+</div>
+<div class="box7">
+    <div class="box7-one">
+        <div class="l">
+            <div class="ii"><img src="img/881ae53d-2f84-4257-86c3-10e9805ad19f.jpg" alt=""></div>
+            <ul>
+                <li><img src="img/xiaw%20(1).png" alt=""></li>
+                <li class="li2"><img src="img/xiaw%20(2).png" alt=""></li>
+                <li><img src="img/uuuuuu.png" alt=""></li>
+                <li class="li3"><img src="img/anananan.png" alt=""></li>
+            </ul>
+        </div>
+        <div class="f">
+            <div class="f1">
+                <img src="img/1111tu.png" alt="">
+                <div class="f2">
+                    <span>公司相关</span>
+                    <ul>
+                        <li>加入我们</li>
+                        <li>招商合作</li>
+                        <li>关于我们</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="f1">
+                <img src="img/2222tu.png" alt="">
+                <div class="f2">
+                    <span>相关内容</span>
+                    <ul>
+                        <li>社区精选</li>
+                        <li>媒体报道</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="f1">
+                <img src="img/333tu.png" alt="">
+                <div class="f2">
+                    <span>协议条款</span>
+                    <ul>
+                        <li>注册协议</li>
+                        <li>隐私协议</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="box7-tow">
+        <div class="inner">
+            <div class="box7-tow1">
+                <span class="sa1">沪ICP备 13030189号 Copyright © 2014-2018  行吟信息科技（上海）有限公司| 地址：上海市黄浦区马当路388号C座| 电话：021-64224530</span>
+            </div>
+            <div class="box7-tow2">
+                <i></i>
+                <span class="sa2">上海市互联网举报中心 |沪网文〔2018〕4086-308号 |增值电信业务经营许可证：沪B2-20150021</span>
+            </div>
+            <div class="box7-tow3">
+                <span class="sa3">2018 沪公网安备 31010102002533号</span>
+                <i></i>
+                <span class="sa4">违法不良信息举报电话：(027) 5931 3970</span>
+            </div>
+        </div>
+    </div>
+</div>
+</body>
+
+
+<!--地图-->
+<script src="js/jquery-1.8.3.min.js"></script>
+<script type="text/javascript">
+    //创建和初始化地图函数：
+    function initMap() {
+        createMap();//创建地图
+        setMapEvent();//设置地图事件
+        addMapControl();//向地图添加控件
+        addMarker();//向地图中添加marker
+    }
+
+    //创建地图函数：
+    function createMap() {
+        var map = new BMap.Map("dituContent");//在百度地图容器中创建一个地图
+        var point = new BMap.Point(116.348084, 40.091321);//定义一个中心点坐标
+        map.centerAndZoom(point, 14);//设定地图的中心点和坐标并将地图显示在地图容器中
+        window.map = map;//将map变量存储在全局
+    }
+
+    //地图事件设置函数：
+    function setMapEvent() {
+        map.enableDragging();//启用地图拖拽事件，默认启用(可不写)
+        map.enableScrollWheelZoom();//启用地图滚轮放大缩小
+        map.enableDoubleClickZoom();//启用鼠标双击放大，默认启用(可不写)
+        map.enableKeyboard();//启用键盘上下左右键移动地图
+    }
+
+    //地图控件添加函数：
+    function addMapControl() {
+        //向地图中添加缩放控件
+        var ctrl_nav = new BMap.NavigationControl({anchor: BMAP_ANCHOR_TOP_LEFT, type: BMAP_NAVIGATION_CONTROL_LARGE});
+        map.addControl(ctrl_nav);
+        //向地图中添加缩略图控件
+        var ctrl_ove = new BMap.OverviewMapControl({anchor: BMAP_ANCHOR_BOTTOM_RIGHT, isOpen: 1});
+        map.addControl(ctrl_ove);
+        //向地图中添加比例尺控件
+        var ctrl_sca = new BMap.ScaleControl({anchor: BMAP_ANCHOR_BOTTOM_LEFT});
+        map.addControl(ctrl_sca);
+    }
+
+    //标注点数组
+    var markerArr = [{
+        title: "我的标记",
+        content: "我的备注",
+        point: "116.357355|40.096068",
+        isOpen: 0,
+        icon: {w: 23, h: 25, l: 46, t: 21, x: 9, lb: 12}
+    }];
+    //创建marker
+    function addMarker() {
+        for (var i = 0; i < markerArr.length; i++) {
+            var json = markerArr[i];
+            var p0 = json.point.split("|")[0];
+            var p1 = json.point.split("|")[1];
+            var point = new BMap.Point(p0, p1);
+            var iconImg = createIcon(json.icon);
+            var marker = new BMap.Marker(point, {icon: iconImg});
+            var iw = createInfoWindow(i);
+            var label = new BMap.Label(json.title, {"offset": new BMap.Size(json.icon.lb - json.icon.x + 10, -20)});
+            marker.setLabel(label);
+            map.addOverlay(marker);
+            label.setStyle({
+                borderColor: "#808080",
+                color: "#333",
+                cursor: "pointer"
+            });
+
+            (function () {
+                var index = i;
+                var _iw = createInfoWindow(i);
+                var _marker = marker;
+                _marker.addEventListener("click", function () {
+                    this.openInfoWindow(_iw);
+                });
+                _iw.addEventListener("open", function () {
+                    _marker.getLabel().hide();
+                });
+                _iw.addEventListener("close", function () {
+                    _marker.getLabel().show();
+                });
+                label.addEventListener("click", function () {
+                    _marker.openInfoWindow(_iw);
+                });
+                if (!!json.isOpen) {
+                    label.hide();
+                    _marker.openInfoWindow(_iw);
+                }
+            })()
+        }
+    }
+    //创建InfoWindow
+    function createInfoWindow(i) {
+        var json = markerArr[i];
+        var iw = new BMap.InfoWindow("<b class='iw_poi_title' title='" + json.title + "'>" + json.title + "</b><div class='iw_poi_content'>" + json.content + "</div>");
+        return iw;
+    }
+    //创建一个Icon
+    function createIcon(json) {
+        var icon = new BMap.Icon("http://app.baidu.com/map/images/us_mk_icon.png", new BMap.Size(json.w, json.h), {
+            imageOffset: new BMap.Size(-json.l, -json.t),
+            infoWindowOffset: new BMap.Size(json.lb + 5, 1),
+            offset: new BMap.Size(json.x, json.h)
+        })
+        return icon;
+    }
+
+    initMap();//创建和初始化地图
+</script>
+<!--地图结束-->
+</html>
